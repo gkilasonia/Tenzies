@@ -10,5 +10,3 @@ open index.html
 
 Note that using Webpack is obselete and this archive has been provided
 for compatibility reasons. Prefer using Vite, check it at https://vitejs.dev
-
-react-confetti ვერ დავაინსტალირე.

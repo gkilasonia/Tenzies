@@ -1,7 +1,7 @@
 import React from "react";
 import Die from "./Die";
 import { nanoid } from "nanoid";
-// import Confetti from "react-confetti";
+import Confetti from "react-confetti";
 import "./App.css";
 
 export default function App() {
@@ -65,7 +65,7 @@ export default function App() {
 
   return (
     <main>
-      {/* {tenzies && <Confetti />} */}
+      {tenzies && <Confetti width="800" />}
       <h1 className="title">Tenzies</h1>
       <p className="instructions">
         {tenzies
